@@ -1,0 +1,22 @@
+package Recursion;
+
+public class Recursion {
+	static int sum=0;
+	public static void main(String args[])
+	{
+		
+		System.out.println(SumOf(10));
+	}
+	//Sum of 1 to N number
+	static int SumOf(int n)
+	{
+		if(n==1)
+			return n;
+		else{
+			return n+SumOf(n-1);
+		}
+		
+		
+	}
+
+}
